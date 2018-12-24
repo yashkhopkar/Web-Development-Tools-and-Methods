@@ -1,3 +1,17 @@
+I have created a Employee management system web application using BLAZOR C# web assembly programming.
+
+Features include:
+
+- Role based access
+Admin Role: To create employees
+User Role: To view various products
+
+- CRUD Operations
+Create, View, Update and Delete various Employees
+
+- Discounted product page for Employees
+
+
 STEPS TO RUN THE PROJECT
 
 Prerequisites:
@@ -12,7 +26,7 @@ Prerequisites:
 
 2) Install MongoDB Driver in in Visual Studio 2017 as follows:
 	a. Navigate to Tools >> NuGet Package Manager >> Package Manager Console. 
-	   Select ìBlazorWithMongo.Sharedî from Default project drop-down and run the following command,
+	   Select ‚ÄúBlazorWithMongo.Shared‚Äù from Default project drop-down and run the following command,
 	   
 		 Install-Package MongoDB.Driver
 
