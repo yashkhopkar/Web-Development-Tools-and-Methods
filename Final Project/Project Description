@@ -1,0 +1,12 @@
+I have created a Employee management system web application using BLAZOR C# web assembly programming.
+
+Features include:
+
+- Role based access
+Admin Role: To create employees
+User Role: To view various products
+
+- CRUD Operations
+Create, View, Update and Delete various Employees
+
+- Discounted product page for Employees
