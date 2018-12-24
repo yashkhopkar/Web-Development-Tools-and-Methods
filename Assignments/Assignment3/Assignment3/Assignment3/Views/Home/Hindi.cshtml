@@ -1,0 +1,33 @@
+﻿@model WordCounterModel
+<html>
+<head>
+    <style>
+        body {
+            background-color: #F2F2F2
+        }
+        img {
+            padding: 1px;
+            border: 1px solid #021a40;
+        }
+    </style>
+</head>
+<body>
+    <h1>नमस्ते</h1>
+    <img src="~/images/hindi.jpg" class="mx-auto d-block" alt="Word Counter" height="250" width="800" />
+    <h2>आपका परिणाम यहाँ है!</h2>
+    <ul>
+        @if (Model != null)
+        {
+            @foreach (KeyValuePair<string, int> pair in Model.wordDict)
+            {
+                <li>@pair.Key : @pair.Value</li>
+            }
+        }
+    </ul>
+
+
+
+</body>
+
+</html>
+

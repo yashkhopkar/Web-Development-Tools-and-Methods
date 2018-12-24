@@ -1,0 +1,57 @@
+﻿@page "/product"
+@inject Microsoft.AspNetCore.Blazor.Services.IUriHelper UriHelper
+<style>
+    body {
+        font-family: Calibri;
+    }
+</style>
+<button class="btn btn-info" onclick="@Navigate">Logout</button>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Original Price</th>
+            <th>Discounted Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="/css/images/macbook-pro.jpg" class="img-thumbnail" alt="MacBook Pro" width="304" height="236"> </td>
+            <td>MacBook Pro</td>
+            <td>$1700</td>
+            <td>$1500</td>
+        </tr>
+        <tr>
+            <td><img src="/css/images/macbook-air.jpg" class="img-thumbnail" alt="MacBook Air" width="304" height="236"> </td>
+            <td>MacBook Air</td>
+            <td>$1700</td>
+            <td>$1500</td>
+        </tr>
+        <tr>
+            <td><img src="/css/images/ipad-pro.jpg" class="img-thumbnail" alt="iPad Pro" width="304" height="236"> </td>
+            <td>iPad Pro</td>
+            <td>$1000</td>
+            <td>$900</td>
+        </tr>
+        <tr>
+            <td><img src="/css/images/iphoneX.jpg" class="img-thumbnail" alt="iPhone X" width="304" height="236"> </td>
+            <td>iPhone X</td>
+            <td>$1100</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td><img src="/css/images/mac-mini.jpg" class="img-thumbnail" alt="Mac Mini" width="304" height="236"> </td>
+            <td>Mac Mini</td>
+            <td>$900</td>
+            <td>$500</td>
+        </tr>
+    </tbody>
+</table>
+
+@functions {
+    public void Navigate()
+    {
+        UriHelper.NavigateTo("/");
+    }
+    }

@@ -1,0 +1,108 @@
+﻿@page
+@model Assignment2.Pages.WordCounterModel
+@{
+    ViewData["Title"] = "WordCounter";
+}
+<html>
+<head>
+    <style>
+        body {
+            font-family: Verdana, Arial, sans-serif;
+            background-color: #303F9F;
+        }
+
+        #wrapper {
+            background-color: #C5CAE9;
+            color: #212121;
+            width: 90%;
+            margin: auto;
+            min-width: 940px;
+        }
+
+        #textlabel {
+            color: #757575;
+        }
+
+        .hr {
+            color: #BDBDBD;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        img {
+            padding: 1px;
+            border: 1px solid #021a40;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("h1").click(function () {
+                $(this).toggleClass("white");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("h3").append(" <b><i>Word Counter App Running......Now Loading Output!!!</i></b>");
+                $("h4").append(" <b>The word count is:</b>.");
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1><strong><i>Welcome to the Word Counter App!</i></strong></h1>
+        <h3></h3>
+        <br />
+        <img src="~/images/counting-image.jpg" alt="Counting Image" height="310" width="200" class="center" />
+        <br /><br />
+
+        <form method="POST">
+            <label for="wordCounter" id="textlabel">Enter something cool: </label>
+            <input type="text" id="wordCounter" placeholder="" name="wordCounter" />
+            <input type="submit" id="myBtn" />
+        </form>
+
+        <hr />
+
+        <h3>Your text = @Model.WordCounter </h3>
+        <h4></h4>
+
+        <ul>
+            @if (Model.WordDict != null)
+            {
+                @foreach (KeyValuePair<string, int> pair in Model.WordDict)
+                {
+                    <li>@pair.Key : @pair.Value</li>
+                }
+            }
+        </ul>
+    </div>
+    
+</body>
+</html>
+
+
+
+

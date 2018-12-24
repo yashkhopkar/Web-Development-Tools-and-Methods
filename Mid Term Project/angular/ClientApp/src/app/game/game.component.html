@@ -1,0 +1,68 @@
+<form id="healthbar">
+  <div class="form-group">
+    <label for="health">Health:</label>
+    <label class="healthLabel">{{water+food}}</label>
+  </div>
+</form>
+<span>Here is the map on the island, you wake up on the boat...Try to find something useful on the boat</span>
+<button id="createBoat" (click)="createBoat()">CREATE A BOAT</button>
+<form id="map" action="">
+  <div id="part1">
+    <button id="boat" (click)="exploreBoat('toolkit')">EXPLORE</button>
+    <div id="p1">
+
+    </div>
+  </div>
+
+    <button id="forest" (click)="forest()" disabled>EXPLORE</button>
+    <div id="p2">
+      <label id="forestlabel">FOREST</label>
+      <br />
+      <button id="searchforest" (click)="exploreForest('wood')">SEARCH</button>
+    </div>
+
+
+    <button id="danger" (click)="danger()" disabled>EXPLORE</button>
+    <div id="p3">
+      <label id="dangerlabel">FOREST</label>
+      <br />
+      <button id="searchforest">SEARCH</button>
+    </div>
+
+
+    <button id="lake" (click)="lake()" disabled>EXPLORE</button>
+    <div id="p4">
+      <label id="lakelabel">LAKE</label>
+      <br />
+      <button id="searchforest" (click)="exploreLake('water')">SEARCH</button>
+    </div>
+
+
+    <button id="animal" (click)="animal()" disabled>EXPLORE</button>
+    <div id="p5">
+      <label id="animallabel">ANIMAL</label>
+      <br />
+      <button id="searchforest" (click)="exploreAnimal('food')">SEARCH</button>
+    </div>
+
+</form>
+<form id="foot" action="">
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th id="toolkit">TOOL KIT</th>
+        <th>FOOD</th>
+        <th>WATER</th>
+        <th>WOOD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{toolkit}}</td>
+        <td>{{food}}</td>
+        <td>{{water}}</td>
+        <td>{{wood}}</td>
+      </tr>
+    </tbody>
+  </table>
+</form>

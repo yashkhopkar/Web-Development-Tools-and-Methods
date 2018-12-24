@@ -1,0 +1,35 @@
+﻿@model WordCounterModel
+<html>
+<head>
+    <style>
+        body {
+            background-color: #FCE181
+        }
+        img {
+            padding: 1px;
+            border: 1px solid #021a40;
+        }
+    </style>
+</head>
+<body>
+    <h1>你好</h1>
+    <img src="~/images/mandrian.jpg" class="mx-auto d-block" alt="Word Counter" height="250" width="800" />
+    <h2>
+        这是你的结果
+    </h2>
+    <ul>
+        @if (Model != null)
+        {
+            @foreach (KeyValuePair<string, int> pair in Model.wordDict)
+            {
+                <li>@pair.Key : @pair.Value</li>
+            }
+        }
+    </ul>
+
+
+
+</body>
+
+</html>
+

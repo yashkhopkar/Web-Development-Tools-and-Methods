@@ -1,0 +1,18 @@
+#language .btn-link {
+  float: right;
+  color: white;
+}
+
+  #language .btn-link:hover {
+    color: white;
+  }
+
+#home {
+  color: white;
+  text-align: center;
+  padding-top: 160px;
+}
+
+  #home span {
+    font-size: 30px;
+  }

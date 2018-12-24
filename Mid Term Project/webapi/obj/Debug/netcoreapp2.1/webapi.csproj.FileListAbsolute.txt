@@ -1,0 +1,56 @@
+E:\Info6250\Group Work2\test\test\webapi\bin\Debug\netcoreapp2.1\webapi.deps.json
+E:\Info6250\Group Work2\test\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.json
+E:\Info6250\Group Work2\test\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.dev.json
+E:\Info6250\Group Work2\test\test\webapi\bin\Debug\netcoreapp2.1\webapi.dll
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.csprojAssemblyReference.cache
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.csproj.CoreCompileInputs.cache
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cache
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cs
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfoInputs.cache
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfo.cs
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorTargetAssemblyInfo.cache
+E:\Info6250\Group Work2\test\test\webapi\bin\Debug\netcoreapp2.1\webapi.pdb
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.dll
+E:\Info6250\Group Work2\test\test\webapi\obj\Debug\netcoreapp2.1\webapi.pdb
+F:\NEU\Info6250\Lecture6\test\webapi\bin\Debug\netcoreapp2.1\webapi.deps.json
+F:\NEU\Info6250\Lecture6\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.json
+F:\NEU\Info6250\Lecture6\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.dev.json
+F:\NEU\Info6250\Lecture6\test\webapi\bin\Debug\netcoreapp2.1\webapi.dll
+F:\NEU\Info6250\Lecture6\test\webapi\bin\Debug\netcoreapp2.1\webapi.pdb
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.csprojAssemblyReference.cache
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.csproj.CoreCompileInputs.cache
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cache
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cs
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfoInputs.cache
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfo.cs
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorTargetAssemblyInfo.cache
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.dll
+F:\NEU\Info6250\Lecture6\test\webapi\obj\Debug\netcoreapp2.1\webapi.pdb
+F:\NEU\Info6250\Midterm\test\webapi\bin\Debug\netcoreapp2.1\webapi.deps.json
+F:\NEU\Info6250\Midterm\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.json
+F:\NEU\Info6250\Midterm\test\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.dev.json
+F:\NEU\Info6250\Midterm\test\webapi\bin\Debug\netcoreapp2.1\webapi.dll
+F:\NEU\Info6250\Midterm\test\webapi\bin\Debug\netcoreapp2.1\webapi.pdb
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.csprojAssemblyReference.cache
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.csproj.CoreCompileInputs.cache
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cache
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cs
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfoInputs.cache
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfo.cs
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.RazorTargetAssemblyInfo.cache
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.dll
+F:\NEU\Info6250\Midterm\test\webapi\obj\Debug\netcoreapp2.1\webapi.pdb
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\bin\Debug\netcoreapp2.1\webapi.deps.json
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.json
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\bin\Debug\netcoreapp2.1\webapi.runtimeconfig.dev.json
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\bin\Debug\netcoreapp2.1\webapi.dll
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\bin\Debug\netcoreapp2.1\webapi.pdb
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.csprojAssemblyReference.cache
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.csproj.CoreCompileInputs.cache
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cache
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.RazorAssemblyInfo.cs
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfoInputs.cache
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.AssemblyInfo.cs
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.RazorTargetAssemblyInfo.cache
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.dll
+C:\Info6250\Assignments\Game\Midterm_Project_Yash_Khopkar_001850102\webapi\obj\Debug\netcoreapp2.1\webapi.pdb

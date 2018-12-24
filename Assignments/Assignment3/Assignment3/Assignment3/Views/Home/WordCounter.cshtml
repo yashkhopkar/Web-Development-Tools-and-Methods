@@ -1,0 +1,89 @@
+﻿
+<html>
+<head>
+    <style>
+
+        #english, #hindi,#mandrian {
+            display: none;
+        }
+        body {
+            background-color:#659DBD
+        }
+        h1, span{
+            color:whitesmoke
+        }
+        img {
+            padding: 1px;
+            border: 1px solid #021a40;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#englishForm").click(function () {
+                $("#english").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#hindiForm").click(function () {
+                $("#hindi").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#mandrianForm").click(function () {
+                $("#mandrian").toggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 class="display-1"><strong><i>Welcome to the Word Counter App!</i></strong></h1>
+    <br />
+    <img src="~/images/word-counter.jpg" class="mx-auto d-block" alt="Word Counter" height="250" width="800"/>
+    <br /> <br />
+    <div id="container">
+        <span><b>Please Select your Language:</b></span>
+        <button type="button" class="btn btn-primary" id="englishForm">English</button>
+        <button type="button" class="btn btn-success" id="hindiForm">हिन्दी</button>
+        <button type="button" class="btn btn-warning" id="mandrianForm">官话</button>
+        <br />
+        <br />
+        <br />
+        <form id="english" method="POST" action="@Url.Action("English", "Home")">
+            <div class="form-group">
+                <label for="wordCounter" id="textlabel">Enter something cool: </label>
+                <input type="text" id="wordCounter" placeholder="" name="wordCounter" />
+            </div>
+                <input type="submit" class="btn btn-primary" id="myBtn" />
+        </form>
+
+        <form id="hindi" method="POST" action="@Url.Action("Hindi", "Home")">
+            <div class="form-group">
+                <label for="wordCounter" id="textlabel">कुछ अच्छा दर्ज करें: </label>
+                <input type="text" id="wordCounter" placeholder="" name="wordCounter" />
+            </div>   
+                <input type="submit" class="btn btn-success" id="myBtn" />
+        </form>
+
+        <form id="mandrian" method="POST" action="@Url.Action("Mandarin", "Home")">
+            <div class="form-group">
+                <label for="wordCounter" id="textlabel">输入好的东西:</label>
+                <input type="text" id="wordCounter" placeholder="" name="wordCounter" />
+             </div>  
+                <input type="submit" class="btn btn-warning" id="myBtn" />
+        </form>
+
+    </div>
+
+</body>
+</html>
+

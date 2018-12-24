@@ -1,0 +1,8 @@
+{"_id":{"$oid":"5c132298c7d4c03194e7b025"},"Name":"Yash Khopkar","City":"New York","Department":"IT","Gender":"Male","Username":"yash","Password":"yash"}
+{"_id":{"$oid":"5c1322adc7d4c03194e7b026"},"Name":"Apoorav","City":"Boston","Department":"IT","Gender":"Male","Username":"apoorav","Password":"apoorav"}
+{"_id":{"$oid":"5c1322bac7d4c03194e7b027"},"Name":"Neha","City":"LA","Department":"Software","Gender":"Female","Username":"neha","Password":"neha"}
+{"_id":{"$oid":"5c1322d1c7d4c03194e7b028"},"Name":"Dino","City":"Washington DC","Department":"Faculty","Gender":"Female","Username":"dino","Password":"dino"}
+{"_id":{"$oid":"5c1322dfc7d4c03194e7b029"},"Name":"Sayali","City":"New York","Department":"EM","Gender":"Female","Username":"saya","Password":"saya"}
+{"_id":{"$oid":"5c1322efc7d4c03194e7b02a"},"Name":"Vineet","City":"Boston","Department":"HR","Gender":"Male","Username":"vineet","Password":"vineet"}
+{"_id":{"$oid":"5c132301c7d4c03194e7b02b"},"Name":"John","City":"New York","Department":"HR","Gender":"Male","Username":"john","Password":"john"}
+{"_id":{"$oid":"5c132315c7d4c03194e7b02c"},"Name":"Smith","City":"LA","Department":"Sales","Gender":"Male","Username":"smith","Password":"smith"}

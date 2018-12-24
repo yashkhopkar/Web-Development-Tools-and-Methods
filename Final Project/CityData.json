@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5c0f02ee525bfc7b89bd5365"},"CityName":"New York"}
+{"_id":{"$oid":"5c0f02ee525bfc7b89bd5366"},"CityName":"Boston"}
+{"_id":{"$oid":"5c0f02ee525bfc7b89bd5367"},"CityName":"LA"}
+{"_id":{"$oid":"5c0f02ee525bfc7b89bd5368"},"CityName":"Washington DC"}
+{"_id":{"$oid":"5c0f02ee525bfc7b89bd5369"},"CityName":"Las Vegas"}

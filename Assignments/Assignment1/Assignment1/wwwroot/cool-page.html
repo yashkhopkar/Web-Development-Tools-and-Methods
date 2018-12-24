@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MyPage</title>
+    <style>
+        .white{
+            color:white;
+        }
+
+        body {
+            background-color: #f5f5dc;
+            color: #2e0000;
+            font-family: Verdana, Arial, sans-serif;
+        }
+
+        #wrapper {
+            background-color: #f5f5dc;
+            border-width: thin;
+            border-style: solid;
+            border-color: brown;
+            color: #000066;
+            width: 95%;
+            margin: auto;
+            min-width: 940px;
+        }
+
+        #content ul {
+            list-style-type: none;
+            text-decoration: none;
+            color: #B22222;
+        }
+
+        header {
+            background-color: #d2b48c;
+            font-size: 150%;
+            padding: 10px 10px 10px 155px;
+            background-image: url(cup-cartoon.gif);
+            background-repeat: no-repeat;
+            height: 140px;
+        }
+
+        footer {
+            background-color: #d2b48c;
+            color: #000000;
+            text-align: "center";
+            clear: right;
+        }
+
+        nav {
+            background-color: #DAA520;
+        }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+            }
+
+            nav li {
+                padding: 0.5em;
+                display: inline-block;
+            }
+
+            nav a {
+                text-decoration: none;
+                display: block;
+            }
+
+                nav a:link {
+                    color: #FFFFFF;
+                }
+
+                nav a:visited {
+                    color: #EAEAEA;
+                }
+
+                nav a:hover {
+                    color: #D3DBEB;
+                }
+
+            nav ul ul {
+                position: absolute;
+                background-color: #DAA520;
+                padding: 0;
+                display: none;
+                text-align: left;
+            }
+
+                nav ul ul li {
+                    border: 1px solid #FFFFFF;
+                    display: block;
+                    width: 7em;
+                    padding-left: 1em;
+                    margin-left: 0;
+                }
+
+            nav li:hover ul {
+                display: block;
+            }
+
+        #content h1 {
+            color: #00FF00;
+        }
+        #myBtn, #menuBtn {
+            background-color: gray;
+            color: blue;
+        }
+        #gallery {
+            position: relative;
+        }
+
+            #gallery ul {
+                width: 250px;
+                list-style-type: none;
+            }
+
+            #gallery li {
+                display: inline;
+                float: left;
+                padding: 10px;
+            }
+
+            #gallery img {
+                border-style: none;
+            }
+
+            #gallery a {
+                text-decoration: none;
+                color: #333;
+                font-style: italic;
+            }
+
+            #gallery span {
+                display: none;
+            }
+
+            #gallery a:hover span {
+                display: block;
+                position: absolute;
+                top: 10px;
+                left: 300px;
+                text-align: center;
+            }
+          footer {
+               clear: both;
+          }
+        form {
+            background-color: #BDB76B;
+            font-family: Arial, sans-serif;
+            width: 350px;
+            padding: 10px;
+            margin: 30px;
+            border: 2px solid red;
+        }
+
+        label {
+            float: left;
+            clear: left;
+            display: block;
+            width: 100px;
+            text-align: padding-right: 10px;
+            margin-top: 10px;
+            color: #F0FFF0;
+        }
+
+        input, textarea, select, button {
+            margin-top: 10px;
+            display: block;
+        }
+
+            input[type="submit"] {
+                margin-left: 110px;
+            }
+
+        
+    </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myBtn").click(function () {
+                $("p").toggle(1000);
+                $("p").append(" <b>The Address is seen!</b>.");
+                $("#cool").append("<li><b><i>Networking Event Every Saturdays</i></b></li>");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#cool").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("header").click(function () {
+                $(this).toggleClass("white");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#menuBtn").click(function () {
+                $("#gallery").toggle(1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header><h1>JavaJam Coffee House</h1></header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li>
+                    <a href="">Menu</a>
+                    <ul>
+                        <li><a href="">Hot Brew</a></li>
+                        <li><a href="">Cold Brew</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">FeedBack</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div>
+
+            </div>
+            <div id="content">
+                <ul id="cool">
+                    <li><b><i>Specialty Coffee and Tea</b></i></li>
+                    <li>&nbsp</li>
+                    <li><b><i>Bagels, Muffins, and Organic Snacks</b></i></li>
+                    <li>&nbsp</li>
+                    <li><b><i>Music and Poetry Readings</b></i></li>
+                    <li>&nbsp</li>
+                    <li><b><i>Open Mic Night Every Friday</b></i></li>
+                </ul>
+                <div>
+                    <button id="myBtn">Click to Hide/See Address</button>
+                    <p>
+                        54321 Route 42<br>
+                        Ellison Bay, WI 54210<br>
+                        888-555-5555<br><br>
+                    </p>
+                </div>
+                <div>
+                    <h1>Application Form</h1>
+                    <form>
+                        <label for="myName">Name:</label>
+                        <input type="text" name="myName" id="myName" onkeyup="$('#coolForm').html($(this).val())"><br><br>
+                        <label for="myEmail">E-mail:</label>
+                        <input type="text" name="myEmail" id="myEmail"onkeyup="$('#coolForm').html($(this).val())"><br><br>
+                        <label for="dropdown">Select Job:</label>
+                        <select>
+                            <option value="Select">Select Option</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Cook">Cook</option>
+                            <option value="Support Staff">Support Staff</option>
+                        </select>
+                        <label for="resume">Upload your Resume:</label>
+                        <button type="button">Upload</button>
+                        &nbsp <br>
+                        &nbsp <br>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div id="coolForm"></div>
+                <hr />
+                <div>
+                    <button id="menuBtn">Click to Show/Hide Menu</button>
+                    <h1>Image Gallery</h1>
+                    <div id="gallery">
+                        <ul>
+                            <li>
+                                <a href="cappuchino.jpg">
+                                    <img src="cappuchino.jpg"
+                                         width="100" height="75" alt="Cappuchino">
+                                    <span>
+                                        <img src="cappuchino.jpg" width="250" height="150"
+                                             alt="Cappuchino"><br>Cappuchino
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="expresso.jpg">
+                                    <img src="expresso.jpg"
+                                         width="100" height="75" alt="Expresso">
+                                    <span>
+                                        <img src="expresso.jpg" width="250" height="150"
+                                             alt="Expresso"><br>Expresso
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="latte.jpg">
+                                    <img src="latte.jpg"
+                                         width="100" height="75" alt="Latte">
+                                    <span>
+                                        <img src="latte.jpg" width="250" height="150"
+                                             alt="Latte"><br>Latte
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chicken burger.jpg">
+                                    <img src="chicken burger.jpg"
+                                         width="100" height="75" alt="Chicken Burger">
+                                    <span>
+                                        <img src="chicken burger.jpg" width="250" height="150"
+                                             alt="Chicken Burger"><br>Chicken Burger
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <div align="center">
+                <i>
+                    <small>
+                        Copyright &copy; 2014 JavaJam Coffee House<br>
+                        <a href="mailto:abc@abc.com">abc@abc.com</a>
+                    </small>
+                </i>
+        </footer>
+    </div>
+    </div>
+    
+</body>
+</html>
